@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    background-image: url(Images/bg.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin: 50px;
+    text-align: center;
+    font-family: Poppins;
+       
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+button{
+    width: 200px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10%;
+    font-size: 150%;
+    font-family: Poppins;
+    margin-bottom: 20px;
+    outline: none;
+    border:none;
+    box-shadow: none;
+    
+}
+
+#increment-btn{
+    background-color: #50d959;
+    outline: none;
+}
+
+#decrement-btn{
+    background-color: red;
+}
+
+#save-btn{
+    background-color: #FAD7A0;
+}
+
+button:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
